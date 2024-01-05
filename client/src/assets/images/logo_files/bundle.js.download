@@ -2537,7 +2537,7 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.$Refresh$.runtime = __webpack_require__(/*! ./node_modules/react-refresh/runtime.js */ "./node_modules/react-refresh/runtime.js");
 
 
-const URL = "http://localhost:8000";
+const URL = "https://mern-sop.onrender.com";
 const addUser = async data => {
   try {
     return await axios__WEBPACK_IMPORTED_MODULE_0__["default"].post(`${URL}/sop/generate`, data);
